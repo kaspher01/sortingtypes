@@ -1,5 +1,0 @@
-Insertion sort - czas działania tego sortowania zależy w dużym stopniu od stopnia posortowania liczb w początkowej tablicy. Kiedy ustawiłem od razu posortowaną, nie dużą tablicę, insertion sort, w porównaniu do quick sorta i heap sorta, wykonał się dużo szybciej. Natomiast gdy ustawiłem tablicę odwrotnie posortowaną, insertion sort wykonywał się znacznie dłużej od pozostałych. Kiedy natomiast losowo generowałem 100 000 liczb, insertion sort zostawał dużo w tyle, w porównaniu do pozostałych algorytmów.
-
-Quick sort - dla 100 000 danych, drugi najszybszy. Jego sporym minusem jest to, że gdy podamy za dużo danych może się, kolokwialnie mówiąc, "wywalić". Po zmiejszeniu ilości danych do 1000 wykonał się szybciej niż heap sort, z czego można wnioskować, że quick sort jest bardziej efektywny, niż pozostałe algorytmy, dla średniej ilości danych.
-
-Heap sort - dla 100 000 danych, najszybszy z pozostałej 2. Nie potrzebuje dużej ilości pamięci aby się wykonać co, w przeciwieństwie do quicksorta, jest plusem przy sortowaniu dużej ilości danych.
